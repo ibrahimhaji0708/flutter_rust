@@ -1,0 +1,13 @@
+[package]
+name = "flutterrust"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "flutterrust"
+crate-type = ["staticlib","cdylib"]
+
+[dependencies]
+flutter_rust_bridge = "=2.10.0"
+flutter_rust_bridge_macros = "2.10.0"
+once_cell = "1.18.0"
